@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "building npm website"
-                sh "npm install nodemon --save-dev"
+                sh "npm install"
             }
         }
         stage('Deploy') {
