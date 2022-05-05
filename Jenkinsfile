@@ -10,8 +10,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo "deploying wbste"
-                sh "nodemon"
+                echo "deploying website"
+                sh "npm start"
             }
         }
     }
